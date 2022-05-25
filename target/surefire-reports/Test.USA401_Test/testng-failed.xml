@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test.USA401_Test]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Test.USA401_Test">
+        <methods>
+          <include name="aftertest"/>
+          <include name="ASL_Daily_Success"/>
+          <include name="beforemethod"/>
+          <include name="IML_Daily_Success"/>
+          <include name="APL_Daily_Success"/>
+          <include name="APL_Weekly_Success"/>
+        </methods>
+      </class> <!-- Test.USA401_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Test.USA401_Test] -->

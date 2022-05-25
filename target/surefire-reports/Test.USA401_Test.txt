@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Test.USA401_Test
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 97.07 sec <<< FAILURE!
+APL_Daily_Success(Test.USA401_Test)  Time elapsed: 12.195 sec  <<< FAILURE!
+java.lang.AssertionError: No Production
+	at org.testng.Assert.fail(Assert.java:99)
+	at Test.USA401_Test.APL_Daily_Success(USA401_Test.java:50)
+
+ASL_Daily_Success(Test.USA401_Test)  Time elapsed: 6.347 sec  <<< FAILURE!
+java.lang.AssertionError: No Production
+	at org.testng.Assert.fail(Assert.java:99)
+	at Test.USA401_Test.ASL_Daily_Success(USA401_Test.java:88)
+
+IML_Daily_Success(Test.USA401_Test)  Time elapsed: 6.382 sec  <<< FAILURE!
+java.lang.AssertionError: No Production
+	at org.testng.Assert.fail(Assert.java:99)
+	at Test.USA401_Test.IML_Daily_Success(USA401_Test.java:126)
+
+APL_Weekly_Success(Test.USA401_Test)  Time elapsed: 11.62 sec  <<< FAILURE!
+java.lang.AssertionError: No Production
+	at org.testng.Assert.fail(Assert.java:99)
+	at Test.USA401_Test.APL_Weekly_Success(USA401_Test.java:206)
+
